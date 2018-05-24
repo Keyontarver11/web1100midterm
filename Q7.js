@@ -6,3 +6,8 @@
 //             "Nevermore!"
 //
 // Note: there is a tab before "Nevermore!"
+
+var line1="Quoth the raven: \n"
+var line2="\t \"Nevermore!\" "
+
+console.log( line1+line2 )

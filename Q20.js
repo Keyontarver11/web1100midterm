@@ -9,3 +9,13 @@ function mystery(x, y) {
   var c = a + b;
   return c;
 }
+
+function efficient(x,y){
+return Math.round(4 * x * y + 3 * y + 5)
+}
+
+var one=mystery(5,1)
+console.log(one)
+
+var two=efficient(5,1)
+console.log(two)

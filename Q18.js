@@ -6,3 +6,17 @@
 // Then first console log should print the number 8.
 // Then first console log should print the number 13.
 // Then first console log should print the number -3.
+
+
+function sum(a,b){
+    return a + b;
+    }
+    
+    var one=sum(4,4)
+    console.log(one)
+    
+    var two=sum(8,5)
+    console.log(two)
+    
+    var three=sum(-8,5)
+    console.log(three)

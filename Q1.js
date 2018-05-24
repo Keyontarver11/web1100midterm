@@ -7,3 +7,7 @@
 // Finally, print to the console a single string that shows your first name
 // and your last name separated by a space. You must use the firstName and lastName
 // variables in this console log.
+
+var firstName = "keyon"
+var lastName = "tarver" 
+console.log(firstName + " " +lastName)

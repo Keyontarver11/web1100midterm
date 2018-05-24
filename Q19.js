@@ -8,3 +8,27 @@
 // The first console log should print 5.
 // The second console log should print "equal".
 // The third console log should print -3.
+
+function maxOf2 (x,y){
+    if (x>y) return x
+    else if (y>x) return y
+    else  (x == y);
+    return "equal."
+    
+
+
+} 
+
+  
+
+    
+
+
+var a = maxOf2(5,4)
+ console.log(a)
+
+var b = maxOf2(5,5)
+console.log(b)
+
+var c = maxOf2(-20,-3)
+console.log(c)
